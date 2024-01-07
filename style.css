@@ -39,6 +39,11 @@ button {
   margin: 0 auto 0;
 }
 
+.adding-element {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
 .task-input,
 .task-label {
   width: 56%;
@@ -102,8 +107,7 @@ button {
 }
 
 /* New Task */
-.tasks-title {
-  display: block;
+.adding-element-title {
   margin: 0 0 20px;
 }
 

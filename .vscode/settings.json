@@ -1,0 +1,17 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "prettier.useTabs": false,
+  "prettier.requireConfig": true,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "files.autoSave": "off",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSaveMode": "modifications",
+  "editor.pasteAs.showPasteSelector": "never",
+  "editor.defaultFormatter": null,
+  "[javascript]": {
+    "editor.defaultFormatter": null,
+  },
+  "diffEditor.ignoreTrimWhitespace": true
+}

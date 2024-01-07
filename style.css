@@ -121,22 +121,22 @@ button {
   align-items: center;
 }
 
-.task-item>* {
+.task-item > * {
   vertical-align: middle;
 }
 
-.task-item>.input-check {
+.task-item > .input-check {
   margin: 0 10px;
 }
 
-.task-item>.task-label {
+.task-item > .task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.task-item>.task-input {
+.task-item > .task-input {
   width: 226px
 }
 

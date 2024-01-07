@@ -1,9 +1,16 @@
 /* Basic Style */
-body {  /* reset styles */
+/* reset styles */
+body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
+
+input,
+button {
+  outline: none;
+}
+/* reset styles */
 
 .matrix {
   width: 500px;
@@ -21,7 +28,8 @@ body {  /* reset styles */
 }
 
 @media (max-width:768px) {
-  .matrix { text-align: center;
+  .matrix {
+    text-align: center;
   }
 }
 
@@ -51,11 +59,6 @@ body {  /* reset styles */
   list-style:none;
 }
 
- /* reset styles */
-input,button {
-  outline: none;
-}
-
 .button {
   background: none;
   border: 0px;
@@ -69,6 +72,7 @@ input,button {
 .button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .tasks-title {
   color: #333;
@@ -79,7 +83,6 @@ input,button {
   margin: 0;
   text-transform: uppercase;
 }
-
 
 .task-input {
   margin: 0;
@@ -113,7 +116,6 @@ input,button {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
